@@ -1,0 +1,42 @@
+:root {
+  --bg: #000b00;
+  --text: #e2ede6;
+  --heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --sans: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/1.6 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading);
+  color: #0d3320;
+}
+
+a {
+  color: inherit;
+}
+
