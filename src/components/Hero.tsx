@@ -21,7 +21,7 @@ export default function Hero() {
       />
 
       <div className="hero-banner-content">
-        <p className="hero-eyebrow">Electrical & Solar Services</p>
+      
         <h1>Perez Electrical & Solar</h1>
         <p className="hero-banner-text">
           Trusted solar installation, electrical repairs, panel upgrades, and dependable service.
