@@ -1,6 +1,6 @@
-import heroSolar from '../assets/placeholders/hero-solar.jpg'
-import serviceElectrical from '../assets/placeholders/service-electrical.jpg'
-import serviceSolar from '../assets/placeholders/service-solar.jpg'
+import roofSolar from '../assets/real/roof-solar.jpg'
+import electricWork from '../assets/real/electric-work.jpg'
+import powerInstallation from '../assets/real/power-installation.jpg'
 
 export default function Services() {
   return (
@@ -15,7 +15,7 @@ export default function Services() {
       <div className="cards">
         <article className="card">
           <img
-            src={heroSolar}
+            src={roofSolar}
             alt="Solar panel installation service"
             className="card-image"
           />
@@ -28,9 +28,10 @@ export default function Services() {
 
         <article className="card">
           <img
-            src={serviceSolar}
+            src={electricWork}
             alt="Electrical repair service"
             className="card-image"
+            style={{ objectPosition: 'center top' }}
           />
           <h4>Electrical Repairs</h4>
           <p>
@@ -41,8 +42,8 @@ export default function Services() {
 
         <article className="card">
           <img
-            src={serviceElectrical}
-            alt="Electrical maintenance project"
+            src={powerInstallation}
+            alt="Electrical installation and maintenance"
             className="card-image"
           />
           <h4>Preventive Maintenance</h4>

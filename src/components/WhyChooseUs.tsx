@@ -1,6 +1,6 @@
-import aboutProject from '../assets/placeholders/about-project.jpg'
-import serviceElectrical from '../assets/placeholders/service-electrical.jpg'
-import serviceSolar from '../assets/placeholders/service-solar.jpg'
+import solarProject from '../assets/real/solar-project.jpg'
+import reviewElectrical from '../assets/real/review-electrical.jpg'
+import teslaCharger from '../assets/real/tesla-charger.jpg'
 
 type StoryCard = {
   title: string
@@ -15,26 +15,26 @@ const stories: StoryCard[] = [
   {
     title: 'Reliable Solar Installation',
     category: 'Solar Project',
-    image: serviceSolar,
+    image: solarProject,
     text: 'Clean, efficient installations designed to support long-term energy savings and dependable performance.',
-    testimonial: 'They made the process simple and professional from start to finish.',
-    author: 'Homeowner Testimonial',
+    testimonial: 'Professional work and a smooth process from start to finish.',
+    author: 'Homeowner Feedback',
   },
   {
-    title: 'Fast Electrical Repair Support',
-    category: 'Electrical Service',
-    image: serviceElectrical,
-    text: 'From troubleshooting to upgrades, the goal is safe, responsive service that keeps homes and businesses running.',
-    testimonial: 'Quick response, clear communication, and the work was done right.',
-    author: 'Customer Feedback',
+    title: 'Trusted Electrical Service',
+    category: 'Electrical Work',
+    image: reviewElectrical,
+    text: 'Responsive support, careful workmanship, and practical solutions for residential electrical needs.',
+    testimonial: 'Clear communication, quality work, and a great overall experience.',
+    author: 'Customer Review',
   },
   {
-    title: 'Service Built on Trust',
-    category: 'Why Clients Choose Us',
-    image: aboutProject,
-    text: 'Clients want reliable work, honest guidance, and a company that treats every project with care and attention.',
-    testimonial: 'Professional, respectful, and easy to work with. I would recommend them again.',
-    author: 'Client Review',
+    title: 'Modern Energy Upgrades',
+    category: 'EV & Power Solutions',
+    image: teslaCharger,
+    text: 'From upgrades to modern energy equipment, the goal is safe, dependable service that fits real homes and projects.',
+    testimonial: 'Helpful, respectful, and easy to work with.',
+    author: 'Client Testimonial',
   },
 ]
 
@@ -44,8 +44,8 @@ export default function WhyChooseUs() {
       <div className="section-kicker">Why Choose Us</div>
       <h3>Service you can trust, shown through real project stories</h3>
       <p>
-        This section can later be updated with real customer photos, testimonials,
-        and short stories from completed work.
+        This section highlights project visuals, customer confidence, and the
+        kind of service experience the business aims to provide.
       </p>
 
       <div className="story-grid">

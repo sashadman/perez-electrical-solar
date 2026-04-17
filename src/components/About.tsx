@@ -1,4 +1,4 @@
-import aboutusPage from '../assets/placeholders/aboutus-page.jpg'
+import aboutUsPage from '../assets/real/aboutus-page.jpg'
 
 export default function About() {
   return (
@@ -9,12 +9,12 @@ export default function About() {
       <div className="about-layout">
         <div className="about-panel">
           <p>
-            Perez Electrical & Solar is a San Diego company serving homeowners
-            and small businesses with dependable electrical and solar solutions.
+            Perez Electrical & Solar serves homeowners and small businesses with
+            dependable electrical and solar solutions.
           </p>
 
           <p>
-            We focus on clean installations, honest service, and practical
+            The focus is on clean installations, honest service, and practical
             energy solutions that help clients protect their property and reduce
             long-term energy costs.
           </p>
@@ -29,8 +29,8 @@ export default function About() {
 
         <div className="about-image">
           <img
-            src={aboutusPage}
-            alt="Electrical and solar project work"
+            src={aboutUsPage}
+            alt="About Perez Electrical and Solar"
           />
         </div>
       </div>
